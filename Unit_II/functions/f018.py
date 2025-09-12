@@ -1,3 +1,11 @@
+# We have so far studied that
+# 1. Function can be assigned to a variable.
+
+# now we will look into
+
+# 2. Function can be declared with in some function(nested function).
+# 	or Function inside Function
+
 def outer():
 
     def inner():
