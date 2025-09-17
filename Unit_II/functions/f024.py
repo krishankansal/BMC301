@@ -1,15 +1,15 @@
 
-def has_permission(page):
+def has_permission(page_url):
     def inner(username):
         if username == 'Admin':
-            return f"'{username}' does have access to {page}."
+            return f"'{username}' does have access to {page_url}."
         else:
-            return f"'{username}' does NOT have access to {page}."
+            return f"'{username}' does NOT have access to {page_url}."
     return inner
 
 
-current_user = has_permission('Admin Area')
-print(current_user('Admin'))
+x = has_permission('http://www.banking.com')
+print(x('Admin'))
 
-random_user = has_permission('Admin Area')
-print(random_user('Not Admin'))
+y = has_permission('http://www.banking.com')
+print(y('xyz'))

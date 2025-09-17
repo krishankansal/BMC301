@@ -2,7 +2,7 @@
 # factors(17) is [1, 17]
 # factors(18) is [1,2,3,6,9,18]
 
-from l import *
+from f012 import *
 
 def isprime(n):
     if factors(n) == [1, n]:
