@@ -3,11 +3,14 @@ def a():
     print("Thanks for calling me")
 
 
-def b(f):
+def b(x):
     print("Hi, it's me 'b()'")
     print("I will call 'a()' now")
-    f()
+    x()
     # If we need to know what the 'real' name of func
-    print("func's real name is " + f.__name__)
+    print("func's real name is " + x.__name__)
+    return x
 
-b(a)
+# b(a)
+y = b(a)
+y()
