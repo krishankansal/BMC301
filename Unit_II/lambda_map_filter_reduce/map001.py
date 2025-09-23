@@ -18,12 +18,12 @@ nums = [1, 2, 3, 4]
 def double(x):
     return x * 2
 
-print(list(map(double, nums)))   # -> [2, 4, 6, 8]
+print(list(map(double, nums)) ) # -> [2, 4, 6, 8]
 
-# 2) lambda
+# # 2) lambda
 print(list(map(lambda x: x * 2, nums)))  # -> [2, 4, 6, 8]
 
 # 3) multiple iterables
-a = [1, 2, 3]
-b = [10, 20, 30]
+a = [1, 2, 3,4,5]
+b = [10, 20, 30,40]
 print(list(map(lambda x, y: x + y, a, b)))  # -> [11, 22, 33]
