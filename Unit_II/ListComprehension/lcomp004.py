@@ -1,6 +1,6 @@
 # Example: Nested IF with List Comprehension
 
-num_list = [y for y in range(100) if y % 2 == 0 if y % 5 == 0]
+num_list = [y for y in range(101) if y % 2 == 0 if y % 5 == 0 ]
 print(num_list)
 
 # When we run the above program, the output will be:

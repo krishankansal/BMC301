@@ -4,24 +4,21 @@
 first_name = "Alice"
 last_name = "Johnson"
 # Concatenation
-full_name = first_name + " " + last_name
-greeting = "Hello, " + full_name + "!"
-print(greeting)
+print(first_name + last_name)
+print(first_name,last_name)
 
-# Repetition
+
+# # Repetition
 separator = "-" * 20
-emphasis = "Very " * 3 + "important!"
-
-# Multiple operations
-banner = "=" * 10 + " WELCOME " + "=" * 10
-
-# Repetition
-separator = "-" * 20
-emphasis = "Very " * 3 + "important!"
-
-# Multiple operations
-banner = "=" * 10 + " WELCOME " + "=" * 10
-
 print(f"Separator: {separator}")
+
+emphasis = "Very " * 3 + "important!"
 print(f"Emphasis: {emphasis}")
+
+# # Multiple operations
+banner = "=" * 10 + " WELCOME " + "=" * 10
 print(f"Banner: {banner}")
+
+
+
+
