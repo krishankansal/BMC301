@@ -1,7 +1,6 @@
 """The split() method in Python divides a string into a list of substrings based on a specified delimiter. It's one of the most commonly used string methods for text processing and data manipulation."""
 
 """ 1. Default splitting (whitespace): """
-
 text = "Hello world Python"
 result = text.split()
 print(result)
@@ -13,7 +12,7 @@ result = fruits.split(",")
 print(result)
 # Output: ['apple', 'banana', 'orange']
 
-""" 3. With maxsplit: """
+""" 3. With max split: """
 data = "one-two-three-four"
 result = data.split("-", 2)
 print(result)

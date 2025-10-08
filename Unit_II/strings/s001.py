@@ -34,3 +34,5 @@ mixed_quotes = """He said 'Hello' and she replied "Hi there!" """
 # #
 # # # Exercise 2
 # # windows_path = r'C:\Program Files\Python\Scripts\pip.exe'
+
+

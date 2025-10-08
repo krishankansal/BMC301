@@ -1,6 +1,6 @@
 # 5. Essential String Methods
 # Case conversion
-text = "  Hello, Python World!  "
+text = "  hello, python world!  "
 
 
 print(f"Original: '{text}'")
